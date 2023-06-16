@@ -21,7 +21,7 @@ $links = [
         'href' => [
             [
                 'section_text' => 'Inventaris',
-                'section_list' => [['href' => 'view-user', 'text' => 'Ruang'], ['href' => 'add-user', 'text' => 'Alat']],
+                'section_list' => [['href' => 'pinjam-ruang', 'text' => 'Ruang'], ['href' => 'pinjam-alat', 'text' => 'Alat']],
             ],
         ],
         'title' => 'Peminjaman',
@@ -29,7 +29,7 @@ $links = [
         'roles' => 'all',
     ],
     [
-        'href' => 'view-user',
+        'href' => 'ruanggym',
         'text' => 'Ruang Gym',
         'is_multi' => false,
         'roles' => 'all',

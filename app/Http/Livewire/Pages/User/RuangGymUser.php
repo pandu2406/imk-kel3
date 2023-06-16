@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Pages\User;
 
-// use App\Models\User;
+use App\Models\User;
 use Livewire\Component;
 use Livewire\WithPagination;
 
@@ -12,12 +12,13 @@ class RuangGym extends Component
 
     protected $paginationTheme = 'bootstrap';
 
+
     public function render()
     {
-        return view('livewire.pages.user.ruanggym', [
-            'users' => User::paginate(10),
-        ]);
-    }
+         return view('livewire.pages.user.ruanggym', [
+             'users' => User::paginate(10),
+         ]);
+     }
 
     // public function mount()
     // {
